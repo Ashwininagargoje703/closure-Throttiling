@@ -1,0 +1,31 @@
+<html>
+	<link rel="stylesheet" href="trottling.css">   
+	<style>
+		div {
+			border: 1px  solid  black;
+			width: 50%;
+			height: 50%;
+			overflow: scroll;
+			
+		}
+	</style>
+	<body>
+		<div  id="div-body">
+			<p style="background-color: red; height: 100px">Name: Ash</p>
+			<p style="background-color: blue; height: 100px">Name: Suma</p>
+			<p style="background-color: green; height: 100px">Name: Aaru</p>
+			<p style="background-color: yellow; height: 100px">Name: shah</p>
+			<p style="background-color: rgb(0, 234, 255); height: 100px">Name: Ashlesha</p>
+			<p style="background-color: rgb(255, 6, 110); height: 100px">Name: Anu</p>
+				<p style="background-color: rgb(74, 3, 3); height: 100px">Name: sweetu</p>
+		</div>
+		
+		<p style="font-size: larger; font-weight: bolder;">No of times event fired</p>
+		<p id='show-api-call-count'></p>
+
+		<p style=" font-size: larger; font-weight: bolder;">No of times throttling executed the method</p>
+		<p id="debounc-count"></p>
+	</body>
+	
+	<script  src="throttling.js">  </script>
+</html>
